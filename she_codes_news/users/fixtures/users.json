@@ -1,0 +1,84 @@
+[
+    {
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+        "id": 1,
+        "password": "1234",
+        "is_superuser": 1,
+        "username": "Jenny Waller",
+        "first_name": "Jenny",
+        "last_name": "Waller",
+        "email": "admin@admin.com",
+        "is_staff": 1,
+        "is_active": 1,
+        "date_joined": "2023-07-15 01:04:47.919966"
+    }
+    },
+    {
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+        "id": 2,
+        "is_superuser": 0,
+        "username": "David Gray",
+        "first_name": "David",
+        "last_name": "Gray"
+    }
+    },
+    {
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+        "id": 3,
+        "is_superuser": 0,
+        "username": "Olive Lavers",
+        "first_name": "Oliver",
+        "last_name": "Lavers"
+    }
+    },
+    {
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+        "id": 4,
+        "is_superuser": 0,
+        "username": "Asli Yoruk",
+        "first_name": "Asli",
+        "last_name": "Yoruk"
+    }
+    },
+    {
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+    "id": 5,
+    "is_superuser": 0,
+    "username": "Kate Kirwin",
+    "first_name": "Kate",
+    "last_name": "Kirwin"
+    }
+    },
+    {
+    "model": "users.customuser",
+    "pk": 6,
+    "fields": {
+    "id": 6,
+    "is_superuser": 0,
+    "username": "Andrew Boyce",
+    "first_name": "Andrew",
+    "last_name": "Bloyce"
+    }
+    },
+    {
+    "model": "users.customuser",
+    "pk": 7,
+    "fields": {
+    "id": 7,
+    "is_superuser": 0,
+    "username": "Carlie Hamilton",
+    "first_name": "Carlie",
+    "last_name": "Hamilton"
+    }
+    }
+]

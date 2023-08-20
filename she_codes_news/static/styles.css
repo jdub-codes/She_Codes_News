@@ -1,54 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap'); */
+
+:root {
+	--orange: #CC9900;
+	--yellow: #FF9900;
+	--purple: #663399;
+	--black: #333333;
+	--gray: #E9E5D9;
+}
+
+/* CSS reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+	color: var(--black);
+	scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+ol, 
+ul {
+    margin: 0px;
+    padding: 0;
+    font-weight: normal;
+}
+    
+ol, 
+ul {
+    list-style: none;
+}
+    
+img {
+    max-width: 100%;
+    height: auto;
+    }
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Global styles */
 
 body {
-    background-color: rgb(240, 239, 239);
+    background-color: white;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #000;
-}
-
-img {
-    filter: grayscale(100%);
+    /* border-bottom: 1px solid var(--purple); */
+    background-color: var(--purple);
 }
 
 h1 {
-    font-family: 'Montserrat Subrayada', sans-serif;
-    text-decoration: none;
-    font-size: 4rem;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+    font-size: 2rem;
+    /* margin: 0; */
+    color: white;
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 8px;
 }
 
 h3 {
-    font-size: 2rem;
-    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    font-size: 0.8rem;
+    margin: 8px;
+    font-weight: bold;
 }
 
 #header-text {
-    flex-basis: 80%;
-    display: flex;
+    /* flex-basis: 70%;
+    display: flex; */
+    margin-left: 30px;
+    align-items: flex-start;
 }
 
-nav {
-    flex-basis: 20%;
+/* #inthenews-text {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+} */
+
+nav {
+    /* flex-basis: 30%; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
     align-items: flex-end;
+    margin: 30px;
 }
 
 a {
     margin: 2px;
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 
 a, p {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }

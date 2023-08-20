@@ -8,7 +8,7 @@
         <title>She Codes News</title>
         <meta name="description" content="">
         <meta name="author" content="Jenny Waller">
-        <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet"> -->
         <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
         {% block stylesheets %}{% endblock %}
     </head>
@@ -17,10 +17,11 @@
         <header>
             <div id="header-text">
                 <a id="header-link" href="{% url 'news:index' %}">
-                    <h1>She {Codes} News</h1>
+                    <img src="{% static 'news/images/Purple_no_circle.svg' %}" alt="she_codes" width="200px" height="200px" >
                 </a>
             </div>
-            {% include './nav.html' %}
+            <h1>In the news</h1>
+            <h3>{% include './nav.html' %}</h3>
         </header>
         {% block content %}{% endblock %}
     </body>
