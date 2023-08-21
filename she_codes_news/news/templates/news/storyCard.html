@@ -1,7 +1,7 @@
 {% load static %}
 <div class="story-card" id="story-card-{{ position }}">
     <a href="{% url 'news:story' story.id %}">
-            {% if story.image_url %}
+            {% if story.image %}
             <img src =" {{ story.image }} ">
             {% else %}
             <img src="https://picsum.photos/id/1/600">

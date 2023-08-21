@@ -104,6 +104,9 @@ h4 {
     align-items: flex-start;
 }
 
+nav a {
+    margin: 30px;
+}
 /* #inthenews-text {
     display: flex;
     align-items: center;
@@ -116,7 +119,6 @@ nav {
     /* flex-direction: column; */
     flex-direction: row;
     align-items: flex-end;
-    margin: 30px;
 }
 
 a {

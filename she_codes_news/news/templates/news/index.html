@@ -6,9 +6,11 @@
 {% endblock %}
 
 {% block content %}
+    {%if request.user.is_authenticated%}
     <br>
     <h2><a href="{% url 'news:newStory' %}">Write a new story</a></h2>
-
+    {%endif%}
+    
     <h2>Latest News</h2>
 
     <div id="latest-stories">
